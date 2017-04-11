@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="api5.View.updateDataPage"
+             Title="update data">
+  <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+    <Label Text="Id"/>
+    <Entry x:Name="id" Placeholder="Enter id"/>
+    <Label Text="Name"/>
+    <Entry x:Name="name" Placeholder="Enter name"/>
+    <Label Text="description"/>
+    <Entry x:Name="description" Placeholder="Enter description"/>
+    <Label Text="jaarboek Id"/>
+    <Entry x:Name="jaarboekId" Placeholder="Enter jaarboekId"/>
+    <Button Text="update" Clicked="update"/>
+  </StackLayout>
+</ContentPage>

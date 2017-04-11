@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="api5.View.allPages"
+             Title="Home page">
+  <ContentPage.Content>
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+      <Button Text="see list" Clicked="showLists"/>
+      <Button Text="show a data" Clicked="showData"/>
+      <Button Text="Add new data" Clicked="addData"/>
+      <Button Text="update data" Clicked="updateData"/>
+      <Button Text="delete data" Clicked="deleteData"/>
+    </StackLayout>
+  </ContentPage.Content>
+  
+</ContentPage>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:api5;assembly=api5"
+             x:Class="api5.View.imagePage">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <local:ConverterBase64ImageSource1 x:Key="Base64ToImageConverter" />
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  <StackLayout>
+    <ListView x:Name="listView" HasUnevenRows="true" SeparatorColor="Gray">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <Label x:Name="name" Text="{Binding name}"/>
+            <Label x:Name="description" Text="{Binding description}"/>
+            <Label x:Name="jaarboekId" Text="{Binding jaarboekId}"/>
+            <Label x:Name="imageId" Text="{Binding imageId}"/>
+            <Image Source="{Binding Base64Image, Converter={StaticResource Base64ToImageConverter}}}"  Grid.Row="0"
+                    Grid.RowSpan="3" Grid.Column="0"
+                    HorizontalOptions="Center" HeightRequest="50"
+                    VerticalOptions="Center">
+              <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnImageTapped" />
+              </Image.GestureRecognizers>
+            </Image>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </StackLayout>
+</ContentPage>

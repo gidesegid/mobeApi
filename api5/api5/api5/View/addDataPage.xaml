@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="api5.View.addDataPage"
+             Title="Add data page">
+  <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+    <Entry x:Name="name" Placeholder="name"/>
+    <Entry x:Name="description" Placeholder="description"/>
+    <Entry x:Name="jaarboekId" Placeholder="jaarboekId"/>
+    <Entry x:Name="imageId" Placeholder="imageId"/>
+    <Button Text="upload picture" Clicked="picUpload"/>
+    <Button Text="add" Clicked="AddButton_Clicked"/>
+    <Label Text="{Binding success}"/>
+  </StackLayout>
+</ContentPage>

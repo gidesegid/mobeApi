@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="api5.View.lookupPage">
+  <StackLayout>
+    <Label Text="Enter your name below then click show me button"/>
+    <Entry x:Name="myname" Placeholder="Enter name"/>
+    <Button Text="show me" Clicked="showdata"/>
+    <StackLayout>
+      <Label Text="name"/>
+      <Entry x:Name="name" Text="{Binding name}"/>
+      <Label Text="description"/>
+      <Entry x:Name="description" Text="{Binding description}"/>
+      <Label Text="jaarboek Id"/>
+      <Entry x:Name="jaarboekId" Text="{Binding jaarboekId}"/>
+      <Label Text="image Id"/>
+      <Entry x:Name="imageId" Text="{Binding imageId}"/>
+      <Label Text="image name"/>
+      <Entry x:Name="fileName" Text="{Binding fileName}"/>
+      <!-- <Button Text="get image" Clicked="getImage"/>
+      <Entry Text="{Binding Value,Source={x:Reference fileName}}"/>-->
+      <Image x:Name="imageName" ImageSource="{Binding ImageUri}"/>
+    </StackLayout>
+  </StackLayout>
+</ContentPage>

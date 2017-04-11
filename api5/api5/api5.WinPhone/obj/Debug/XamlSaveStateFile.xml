@@ -1,0 +1,13 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\kpb1\documents\visual studio 2015\projects\api5\api5\api5.winphone\obj\debug\intermediatexaml\api5.winphone.exe" HashGuid="4a516e37-92ee-b3aa-9387-7e3d9f3f84c9" />
+    <ReferenceAssembly PathName="c:\users\kpb1\documents\visual studio 2015\projects\api5\api5\api5\bin\debug\api5.dll" HashGuid="a87de491-c6e4-5ca9-4ed2-763369b39de6" />
+    <ReferenceAssembly PathName="c:\users\kpb1\documents\visual studio 2015\projects\api5\packages\xam.plugin.media.2.6.2\lib\wpa81\plugin.media.abstractions.dll" HashGuid="2f026a7c-41cf-6c4a-d5ab-5661045873a2" />
+    <ReferenceAssembly PathName="c:\users\kpb1\documents\visual studio 2015\projects\api5\packages\xam.plugin.media.2.6.2\lib\wpa81\plugin.media.dll" HashGuid="674591e9-0ebc-35be-1d0b-dce742167069" />
+    <ReferenceAssembly PathName="c:\users\kpb1\documents\visual studio 2015\projects\api5\packages\xamarin.forms.2.3.4.224\lib\wpa81\xamarin.forms.core.dll" HashGuid="819b85c3-f6b1-e32c-2830-7206104fccc4" />
+    <ReferenceAssembly PathName="c:\users\kpb1\documents\visual studio 2015\projects\api5\packages\xamarin.forms.2.3.4.224\lib\wpa81\xamarin.forms.platform.dll" HashGuid="6b938cd4-44c0-2618-7eb6-4caa3f482076" />
+    <ReferenceAssembly PathName="c:\users\kpb1\documents\visual studio 2015\projects\api5\packages\xamarin.forms.2.3.4.224\lib\wpa81\xamarin.forms.platform.winrt.dll" HashGuid="a861a807-c05d-0f84-2d21-93f0c7e733ae" />
+    <ReferenceAssembly PathName="c:\users\kpb1\documents\visual studio 2015\projects\api5\packages\xamarin.forms.2.3.4.224\lib\wpa81\xamarin.forms.platform.winrt.phone.dll" HashGuid="4381a56f-41e7-7872-51a4-d23109c536cd" />
+    <ReferenceAssembly PathName="c:\users\kpb1\documents\visual studio 2015\projects\api5\packages\xamarin.forms.2.3.4.224\lib\wpa81\xamarin.forms.xaml.dll" HashGuid="d02ccf2b-8fa0-fb9b-4df1-b85a97365ca2" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

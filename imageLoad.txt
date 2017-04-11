@@ -1,0 +1,3 @@
+https://forums.xamarin.com/discussion/23049/how-to-show-images-from-a-list-base64-encoded-string
+
+http://stackoverflow.com/questions/39305764/bind-base64-string-to-listview-in-xamarin-form
