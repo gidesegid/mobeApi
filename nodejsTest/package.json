@@ -1,0 +1,11 @@
+{
+  "name": "nodejsTest",
+  "version": "0.0.0",
+  "description": "this is a test of nodejsProjects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gide segid",
+  "license": "BSD-2-Clause"
+}
